@@ -1,0 +1,37 @@
+{
+  "name": "@lambdaloop/pi-thinking-steps",
+  "version": "2.0.0",
+  "description": "Three-mode thinking-step rendering for Pi's TUI, rebuilt on the public markdown-transformer API (pi >= 0.84).",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "terminal",
+    "extension",
+    "thinking",
+    "tui"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.ts",
+    "parse.ts",
+    "persistence.ts",
+    "render.ts",
+    "state.ts",
+    "types.ts",
+    "tsconfig.json"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.84.3",
+    "@earendil-works/pi-tui": "0.84.3",
+    "typescript": "^5.9.2"
+  }
+}
